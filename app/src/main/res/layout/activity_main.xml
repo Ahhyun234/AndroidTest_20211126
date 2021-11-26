@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="당첨번호"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/randomNum1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/randomNum2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/randomNum3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/randomNum4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/randomNum5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/randomNum6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="+"
+                android:textSize="20sp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/randomNum7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp"
+                android:layout_marginEnd="5dp"/>
+
+
+
+
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="내 입력번호"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:padding="10dp">
+
+            <TextView
+                android:id="@+id/myNum1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/myNum2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/myNum3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/myNum4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/myNum5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp"
+                android:layout_marginEnd="5dp"/>
+
+            <TextView
+                android:id="@+id/myNum6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="1"
+                android:textSize="20sp"
+                android:layout_marginEnd="5dp"/>
+
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/btnBuyLotto"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="로또 한장 구매하기"
+            android:layout_marginTop="10dp"/>
+
+
+
+
+    </LinearLayout>
+
+</layout>
